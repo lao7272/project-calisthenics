@@ -1,0 +1,266 @@
+/*GENERALES*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color:#ffff77;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navBar li{
+    list-style: none;
+    display: inline-block;
+}
+.navBar a{
+    color: black;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.5s;
+}
+.navBar a:hover{
+    text-decoration: underline;
+}
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    background-color:rgba(0,194,199, 0.7);
+}
+/* INDEX.HTML */
+
+.sectionOne img{
+    width: 100%;
+}
+.sectionOne h1{
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+.sectionOne p{
+    line-height: 20px;
+    font-size: 15px;
+    margin-left: 30px;
+    text-align: justify;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 60%;
+
+}
+.indexInfo{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    background-color: rgb(206, 255, 255);
+    
+}
+.indexSubtitle{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.indexInfo p{
+    width: 40%;
+    text-align: justify;
+}
+
+/* PRODUCTS.HTML */
+
+.sectionProducts{
+    margin-top: 20px;
+}
+.titleProducts{
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+.shop{
+    width: 80%;
+    display: flex;
+}
+.product{
+    width: 140px;
+    height: 120px;
+    display: inline-block;   
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+.product img{
+    width: 120px;
+    border: 1px ridge rgba(255, 255, 255, 0.783);
+}
+.productInformation h3{
+    font-size: 12px;
+}
+.productInformation a{
+    color: black;
+}
+
+/* PROGRAMS.HTML */
+.sectionPrograms{
+    margin-top: 20px;
+}
+.titlePrograms{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+.descriptionH3{
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgba(150, 149, 149, 0.687);
+}
+.programs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.programPlan{
+    width: 300px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.programPlan img{
+    width: 80%;
+    border: ridge 1px rgb(97, 97, 97);
+}
+
+.programText{
+    width: 100%;
+    margin-top: 5px;
+}
+.programText a{
+    color: rgb(49, 49, 49);
+    font-size: 12px;
+    text-align: left;
+}
+
+/* TEAM.HTML */
+.sectionTeam{
+    width: 100%;
+    margin-top: 30px;
+}
+.teamTitle{
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.profile{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.profile img{
+    width: 30%;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 50px;
+
+}
+
+.profileInfo{
+    width: 40%;
+    font-size: 13px;
+}
+.profileInfo h3{
+    text-align: left;
+    font-size: 14px;
+    color: rgb(48, 48, 48);
+}
+.profileInfo p{
+    text-align: justify;
+    font-size: 11px;
+}
+/* CONTACT.HTML */
+
+.formContainer{
+    margin: 0 auto;
+    width: 60%;
+}
+.titleForm{
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.form{
+ 
+
+    display: grid;
+}
+.form input{
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 4px;
+}
+#firstName{
+    grid-area: firstName;
+}
+#lastName{
+    grid-area: lastName;
+}
+#email{
+    grid-area: email;
+}
+#comment{
+    grid-area: comment;
+    grid-template-columns: repeat(2, 1fr);
+}
+#submit{
+    display: block;
+    width: 30px;
+}
+form{
+    grid-template-areas: 
+    "firstName lastName"
+    "email email"
+    "comment comment"
+    "comment comment"
+
+    ;
+}
