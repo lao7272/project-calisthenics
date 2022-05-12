@@ -1,53 +1,52 @@
 /*GENERALES*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+body{    
+    font-family: 'Quicksand', sans-serif;
 }
-p{
-    font-family: 'Roboto', sans-serif;
-}
+
 a{
     text-decoration: none;
 }
+
 
 /*HEADER*/
 
 header{
     width: 100%;
-    height: 70px;
-    background-color:#ffff77;
+    height: 90px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+    background-color:#222222;
 }
 
+/* Nav */
+.logo img{
+    width: 63px;
+    margin-left: 30px;
+}
+.navBar ul{
+    display: flex;
+    flex-direction: row;
+}
 .navBar li{
     list-style: none;
-    display: inline-block;
+    margin: 0 20px;
 }
 .navBar a{
-    color: black;
+    color: rgb(228, 228, 228);
     font-size: 1.2rem;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-family: 'Roboto', sans-serif;
-    transition: all 0.5s;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 10px 3px 0 3px;
+    transition: all 0.3s;
 }
 .navBar a:hover{
-    text-decoration: underline;
+    border-bottom: rgb(228, 228, 228) solid 2.3px;
 }
 
 /*FOOTER*/
@@ -55,44 +54,74 @@ footer{
     width: 100%;
     height: 60px;
     margin-top: 30px;
-    background-color:rgba(0,194,199, 0.7);
+    background-color: #222222;
+}
+footer strong{
+    margin: 20px;
+    color: rgb(228, 228, 228);
 }
 /* INDEX.HTML */
 
-.sectionOne img{
-    width: 100%;
-}
-.sectionOne h1{
-    text-align: center; 
-    margin-bottom: 15px; 
-}
-.sectionOne p{
-    line-height: 20px;
-    font-size: 15px;
-    margin-left: 30px;
-    text-align: justify;
+.mainSection{
+    width: auto;
     margin-bottom: 20px;
-    display: inline-block;
-    width: 60%;
-
 }
-.indexInfo{
+.mainSection img{
     width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-    
-    background-color: rgb(206, 255, 255);
-    
 }
-.indexSubtitle{
-    font-size: 16px;
-    text-align: left;
-    margin-top: 15px;
+.mainSection h1{
+    margin: 20px 0;
+    text-align: center; 
+}
+
+.indexInfo{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+.indexInfo img{
+    width: 50%;
+    border: #e0e0e0 solid 1px;
+}
+.indexInfoContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.indexInfoContent h2{
+    font-size: 18px;
+    text-align: center;
     margin-bottom: 15px;
 }
-.indexInfo p{
-    width: 40%;
+.indexInfoContent p{
+    font-size: 15px;
     text-align: justify;
+    margin-left: 20px;
+}
+.indexAside{
+    width: 100%;
+    margin: 0 auto    
+}
+.linkProduct{
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.linkProduct a{
+    color: black;
+    text-align: center;
+    border: #e0e0e0 1px solid;
+}
+.linkProduct img{
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* PRODUCTS.HTML */
@@ -216,51 +245,38 @@ footer{
 }
 /* CONTACT.HTML */
 
-.formContainer{
-    margin: 0 auto;
-    width: 60%;
-}
 .titleForm{
-    margin-top: 25px;
     text-transform: uppercase;
     font-size: 20px;
-    text-align: left;
-    margin-left: 20px;
+    text-align: center;  
+    margin-top: 20px;  
 }
-
-.form{
- 
-
+.contactForm{
+    margin: 0 auto;
+    width: 72%;
+}
+.contactForm > *{
+    padding: 1rem;
+}
+.contactForm form{
+    max-width: 90%;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 4rem 2rem 4rem;
+    column-gap: 2.7rem;
 }
-.form input{
-    margin-bottom: 10px;
-    padding: 12px;
-    border-radius: 4px;
+.contactForm p{
+    margin: 0;
 }
-#firstName{
-    grid-area: firstName;
+.block{
+    grid-column: 1 / 3;
 }
-#lastName{
-    grid-area: lastName;
-}
-#email{
-    grid-area: email;
-}
-#comment{
-    grid-area: comment;
-    grid-template-columns: repeat(2, 1fr);
-}
-#submit{
-    display: block;
-    width: 30px;
-}
-form{
-    grid-template-areas: 
-    "firstName lastName"
-    "email email"
-    "comment comment"
-    "comment comment"
 
-    ;
+.submit{
+    grid-template-columns: 1 / 1;
+}
+.contactForm label, input, textarea{
+    width: 100%;
+    padding: 0.3rem;   
+    margin: 0.2rem; 
 }

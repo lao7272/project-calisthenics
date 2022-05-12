@@ -16,9 +16,13 @@
 <body>
     <!-- Comienzo del header + el nav-->
     <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/realicon.png" alt="Logo de la pagina">
+            </a>
+        </div>
         <nav class="navBar">
             <ul>
-                <li><a href="index.html" class="link">Inicio</a></li>
                 <li><a href="pages/products.html">Productos</a></li>
                 <li><a href="pages/programs.html">Programas</a></li>
                 <li><a href="pages/team.html">Equipo</a></li>
@@ -28,25 +32,31 @@
     </header>
     <!-- Inicio del main + section -->
     <main>
-        <section class="sectionOne">
+        <section class="mainSection">
             <img src="img/exercises/one-arm-handstand.jpg" alt="Foto de calistenia">
             <h1>Obten control absoluto sobre tu cuerpo</h1>
         </section>
     </main>
-    <section>
+    <section class="sectionOne">
         <div class="indexInfo">
-            <img src="img/exercises/planche-2.jpg" alt="Foto de Planche">
-            <h2 class="indexSubtitle">Que es la calisteania?</h2>
-            <p>
-                Calistenia es una palabra que procede del griego Kallos, belleza, y sthenos, fortaleza. Se trata de un
-                sistema de ejercicios basado en el peso del propio cuerpo y que trabaja grandes grupos musculares para
-                alcanzar la belleza del cuerpo en movimiento.
-            </p>
+            <img src="img/exercises/planche.jpg" alt="Foto de Planche">
+            <div class="indexInfoContent">
+                <h2>Que es la calisteania?</h2>
+                <p>
+                    Calistenia es una palabra que procede del griego Kallos, belleza, y sthenos, fortaleza. Se trata de
+                    un sistema de ejercicios basado en el peso del propio cuerpo y que trabaja grandes grupos musculares
+                    para alcanzar la belleza del cuerpo en movimiento.
+                </p>
+            </div>
         </div>
-
     </section>
-    <aside>
-
+    <aside class="indexAside">
+        <div class="linkProduct">            
+            <a href="pages/products.html">
+                <h3>Productos</h3>
+                <img src="img/products/bar.jpg" alt="">
+            </a>
+        </div>
     </aside>
     <!-- Inicio del footer -->
     <footer>

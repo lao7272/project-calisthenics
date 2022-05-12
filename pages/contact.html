@@ -14,10 +14,14 @@
 
 <body>
     <!-- Comienzo del header + el nav-->
-    <header class="header">
+    <header>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../img/realicon.png" alt="Logo de la pagina">
+            </a>
+        </div>
         <nav class="navBar">
             <ul>
-                <li><a href="../index.html">Inicio</a></li>
                 <li><a href="products.html">Productos</a></li>
                 <li><a href="programs.html">Programas</a></li>
                 <li><a href="team.html">Equipo</a></li>
@@ -26,20 +30,37 @@
         </nav>
     </header>
     <!-- Inicio del main -->
-    <main>
-        <div class="formContainer">
-            <h1 class="titleForm">Contacto</h1>
-            <!-- Form -->
-            <form class="form">
-                <input type="text" id="firstName" placeholder="Nombre">
-    
-                <input type="text" id="lastName" placeholder="Apellido">
-    
-                <input type="email" id="email" placeholder="Correo electronico">
-    
-                <textarea id="comentario" cols="30" rows="5" placeholder="Comentario" id="comment"></textarea>
-    
-                <input type="submit" id="enviar" value="Enviar" id="submit">
+    <main class="contact">
+        <h1 class="titleForm">Contactanos</h1>
+        <!-- Form -->
+        <div class="contactForm">            
+            <form> 
+                <p>                    
+                    <label for="first_name">Nombre</label>
+                    <input type="text" id="first_name">
+                </p>
+                
+                <p>                    
+                    <label for="last_name">Apellido</label>
+                    <input type="text" id="last_name">
+                </p>
+                
+                <p>                    
+                    <label for="email">Correo electronico</label>
+                    <input type="email" id="email">
+                </p>
+                <p>
+                    <label for="phone">Numero de telefono</label>
+                    <input type="tel" id="phone">
+                </p>
+                <p class="block">                    
+                    <label for="comment">Comentario</label>
+                    <textarea id="comment"  rows="3" ></textarea>
+                </p>
+                <p class="submit">                    
+                    <input type="submit" id="submit" value="Enviar"
+                    >
+                </p>
             </form>
         </div>
 
