@@ -6,6 +6,7 @@
 }
 body{    
     font-family: 'Quicksand', sans-serif;
+    background-color: #424242;
 }
 
 a{
@@ -244,16 +245,20 @@ footer strong{
     font-size: 11px;
 }
 /* CONTACT.HTML */
-
+.contact{
+    background-color: #2e2e2e;
+    box-shadow: 0 0 10px 10px #e0e0e0;
+    font-family: 'Quicksand', sans-serif;
+    width: 72%;
+    margin: 0 auto;
+    color:white;
+    margin-top: 20px;
+}
 .titleForm{
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;  
-    margin-top: 20px;  
-}
-.contactForm{
-    margin: 0 auto;
-    width: 72%;
+    padding-top: 20px; 
 }
 .contactForm > *{
     padding: 1rem;
@@ -263,10 +268,28 @@ footer strong{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 4rem 2rem 4rem;
-    column-gap: 2.7rem;
+    
 }
 .contactForm p{
-    margin: 0;
+    margin: 0
+    
+}
+.contactForm label, p{
+    width: 100%;
+    padding: 0.3rem;   
+    margin: 0.2rem; 
+}
+.contactForm textarea{
+    width: 95.2%;
+    max-width: 95.2%;
+    min-width: 95.2%;
+    padding: 0.3rem;   
+    margin: 0.2rem; 
+}
+.contactForm input {
+    width: 90%;
+    padding: 0.3rem;   
+    margin: 0.2rem; 
 }
 .block{
     grid-column: 1 / 3;
@@ -275,8 +298,31 @@ footer strong{
 .submit{
     grid-template-columns: 1 / 1;
 }
-.contactForm label, input, textarea{
-    width: 100%;
-    padding: 0.3rem;   
-    margin: 0.2rem; 
+.submit input{
+    color: white;
+    width: 30%;
+    padding: 0.7rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-image: 
+    linear-gradient(to right top ,
+    #252525, 
+    #551d1d,
+    #6f1818,
+    #9b1111,
+    #c00b0b,
+    #ff0000);
+    background-size: 400%;
+}
+.submit input:hover{
+    animation: forwards animate 1s;
+}
+@keyframes animate {
+    0%{
+        background-position: left;
+    }    
+    100%{
+        background-position: right;
+    }
 }
