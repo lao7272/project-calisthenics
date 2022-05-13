@@ -316,13 +316,15 @@ footer strong{
     background-size: 400%;
 }
 .submit input:hover{
-    animation: forwards animate 1s;
+    animation: forwards animate 0.8s;
 }
 @keyframes animate {
     0%{
         background-position: left;
+        
     }    
     100%{
         background-position: right;
+        transform: translateY(-3px);
     }
 }
