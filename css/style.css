@@ -262,8 +262,7 @@ footer strong{
     max-width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0 4rem 2rem 4rem;
-    
+    margin: 0 4rem 2rem 4rem; 
 }
 .contactForm p{
     margin: 0
@@ -293,7 +292,7 @@ footer strong{
 .submit{
     grid-template-columns: 1 / 1;
 }
-.submit input{
+.submit{
     color: white;
     width: 30%;
     padding: 0.7rem;
@@ -310,7 +309,7 @@ footer strong{
     #ff0000);
     background-size: 400%;
 }
-.submit input:hover{
+.submit:hover{
     animation: forwards animate 0.8s;
 }
 @keyframes animate {
@@ -323,3 +322,60 @@ footer strong{
         transform: translateY(-3px);
     }
 }
+/* MEDIA QUERY */
+@media screen and (min-width: 300px) and (max-width:600px){
+    /* GENERALES */
+    /* INDEX.HTML */
+    /* PRUDUCTS.HTML */
+    /* PROGRAMS.HTML */
+    /* TEAM.HTML */
+    /* CONTACT.HTML */
+
+    .contact{
+        width: 80%;
+    }
+    
+    .contactForm{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contactForm form{
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;      
+    }
+    .contactForm label{
+        padding: 0.2rem;   
+        margin-left: 13px;
+    }
+    .contactForm input{
+        margin-left: 13px;
+    }
+    .contactForm textarea{
+        margin-left: 13px;
+        max-width: 90%;
+        min-width: 90%;
+    }
+    
+    /* .contactForm input {
+        width: 95%;
+    } */
+    .submit input{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    /* INDEX.HTML */
+    /* PRUDUCTS.HTML */
+    /* PROGRAMS.HTML */
+    /* TEAM.HTML */
+    /* CONTACT.HTML */
+}
+
+
+
+
