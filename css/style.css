@@ -69,11 +69,6 @@ footer strong{
     display: flex;
     flex-direction: row;
 }
-.containerImgSlider{
-    width: 400px;
-    
-}
-
 .indexInfo{
     width: 80%;
     margin: 0 auto;
@@ -127,32 +122,12 @@ footer strong{
 }
 .titleProducts{
     margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
     margin-left: 20px;
-}
-.shop{
-    width: 80%;
-    display: flex;
-}
-.product{
-    width: 140px;
-    height: 120px;
-    display: inline-block;   
-    margin-left: 20px;
-    margin-right: 5px;
-    margin-bottom: 20px;
 }
 .product img{
-    width: 120px;
-    border: 1px ridge rgba(255, 255, 255, 0.783);
+    border-bottom: 1px solid #bbb;
 }
-.productInformation h3{
-    font-size: 12px;
-}
-.productInformation a{
-    color: black;
-}
-
 /* PROGRAMS.HTML */
 .sectionPrograms{
     margin-top: 20px;
@@ -262,26 +237,27 @@ footer strong{
     max-width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
     margin: 0 4rem 2rem 4rem; 
 }
 .contactForm p{
-    margin: 0
-    
+    margin: 0;
+    width: 100%;
 }
-.contactForm label, p{
+.contactForm label{
     width: 100%;
     padding: 0.3rem;   
     margin: 0.2rem; 
 }
 .contactForm textarea{
     width: 95.2%;
-    max-width: 95.2%;
-    min-width: 95.2%;
+    max-width: 99%;
+    min-width: 99%;
     padding: 0.3rem;   
     margin: 0.2rem; 
 }
 .contactForm input {
-    width: 90%;
+    width: 98%;
     padding: 0.3rem;   
     margin: 0.2rem; 
 }
@@ -327,10 +303,12 @@ footer strong{
     /* GENERALES */
     /* INDEX.HTML */
     /* PRUDUCTS.HTML */
+    .product{
+        margin: 15px 20px;
+    }
     /* PROGRAMS.HTML */
     /* TEAM.HTML */
     /* CONTACT.HTML */
-
     .contact{
         width: 80%;
     }
@@ -348,24 +326,25 @@ footer strong{
         align-items: center;
         margin: 0;      
     }
+    
     .contactForm label{
         padding: 0.2rem;   
         margin-left: 13px;
     }
     .contactForm input{
         margin-left: 13px;
+        width: 90%;
     }
     .contactForm textarea{
         margin-left: 13px;
+        margin-bottom: 10px;
         max-width: 90%;
         min-width: 90%;
     }
-    
-    /* .contactForm input {
-        width: 95%;
-    } */
-    .submit input{
+    .submit{
         width: 100%;
+        margin:0;
+
     }
 }
 @media screen and (min-width: 601px) and (max-width: 1024px){
@@ -374,6 +353,27 @@ footer strong{
     /* PROGRAMS.HTML */
     /* TEAM.HTML */
     /* CONTACT.HTML */
+    .contactForm form{
+        width: 100%;
+        margin: 0 auto;        
+    }
+    .contactForm input{
+        width: 95%;
+        margin-left: 6px;
+    }
+    .contactForm textarea{
+        max-width: 97%;
+        min-width: 97%;
+        margin-left: 6px;
+    }
+}
+@media (min-width: 1025){
+    /* INDEX.HTML */
+    /* PRUDUCTS.HTML */
+    /* PROGRAMS.HTML */
+    /* TEAM.HTML */
+    /* CONTACT.HTML */
+    
 }
 
 
