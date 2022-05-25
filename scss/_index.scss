@@ -1,0 +1,74 @@
+@import "global";
+/* INDEX.HTML */
+
+.mainSection {
+    width: auto;
+    margin-bottom: 20px;
+  
+    img {
+      width: 100%;
+    }
+  
+    h1 {
+      margin: 20px 0;
+      text-align: center;
+    }
+  }
+  
+  .sectionOne {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .indexInfo {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .indexInfoContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  
+    h2 {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  
+    p {
+      font-size: 15px;
+      text-align: justify;
+      margin-left: 20px;
+    }
+  }
+  
+  .indexAside {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .linkProduct {
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  
+    a {
+      color: black;
+      text-align: center;
+      border: #e0e0e0 1px solid;
+    }
+  
+    img {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }

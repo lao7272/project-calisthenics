@@ -1,0 +1,44 @@
+@import "global";
+/* TEAM.HTML */
+
+.sectionTeam {
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .teamTitle {
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .profile {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+  
+    img {
+      width: 30%;
+      height: 300px;
+      margin-right: 10px;
+      margin-left: 50px;
+    }
+  }
+  
+  .profileInfo {
+    width: 40%;
+    font-size: 13px;
+  
+    h3 {
+      text-align: left;
+      font-size: 14px;
+      color: rgb(48, 48, 48);
+    }
+  
+    p {
+      text-align: justify;
+      font-size: 11px;
+    }
+  }
+  

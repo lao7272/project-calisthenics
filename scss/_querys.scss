@@ -1,0 +1,89 @@
+@import "global";
+@import "index";
+@import "products";
+@import "programs";
+@import "team";
+@import "contact";
+/* MEDIAS QUERY */
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    /* GENERALES */
+    /* INDEX.HTML */
+    /* PRUDUCTS.HTML */
+  
+    .product {
+      margin: 15px 20px;
+    }
+  
+    /* PROGRAMS.HTML */
+    /* TEAM.HTML */
+    /* CONTACT.HTML */
+  
+    .contact {
+      width: 80%;
+    }
+  
+    .contactForm {
+      width: 100%;
+      margin: 0 auto;
+  
+      form {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+      }
+  
+      label {
+        padding: 0.2rem;
+        margin-left: 13px;
+      }
+  
+      input {
+        margin-left: 13px;
+        width: 90%;
+      }
+  
+      textarea {
+        margin-left: 13px;
+        margin-bottom: 10px;
+        max-width: 90%;
+        min-width: 90%;
+      }
+    }
+  
+    .submit {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* INDEX.HTML */
+    /* PRUDUCTS.HTML */
+    /* PROGRAMS.HTML */
+    /* TEAM.HTML */
+    /* CONTACT.HTML */
+  
+    .contactForm {
+      form {
+        width: 100%;
+        margin: 0 auto;
+      }
+  
+      input {
+        width: 95%;
+        margin-left: 6px;
+      }
+  
+      textarea {
+        max-width: 97%;
+        min-width: 97%;
+        margin-left: 6px;
+      }
+    }
+  }
+  
