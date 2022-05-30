@@ -42,8 +42,8 @@
     }
   
     p {
-      font-size: 15px;
-      text-align: justify;
+      font-size: map-get($fontStyle, size);
+      text-align: map-get($fontStyle , align);
       margin-left: 20px;
     }
   }

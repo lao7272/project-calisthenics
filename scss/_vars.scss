@@ -1,1 +1,15 @@
 $bgcolorOne: #222222;
+$socialMedia:(facebook:#3b5998,
+            youtube: #b2071d,
+            twitter: #00acee);
+$fontStyle:(family: 'Quicksand',
+            size: 15px,
+            color: white,
+            weight: 300,
+            align: justify);
+@mixin fontADefualt {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
