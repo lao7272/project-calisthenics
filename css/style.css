@@ -215,6 +215,17 @@ footer {
   text-align: center;
   margin-left: 20px; }
 
+.product {
+  cursor: pointer; }
+  .product:hover {
+    box-shadow: 0 0 8px 6px #ccc;
+    transition: box-shadow .3s; }
+
+.card-body.productInformation {
+  background-color: #2e2e2e; }
+  .card-body.productInformation p {
+    color: #fff; }
+
 .product img {
   border-bottom: 1px solid #bbb; }
 
@@ -267,47 +278,58 @@ footer {
 
 /* PROGRAMS.HTML */
 .sectionPrograms {
-  margin-top: 20px; }
+  margin-top: 20px;
+  width: 100%; }
 
 .titlePrograms {
   margin-bottom: 10px;
   text-transform: uppercase;
-  font-size: 20px;
-  text-align: left;
-  margin-left: 10px; }
+  font-size: 25px;
+  text-align: center; }
 
 .descriptionH3 {
-  margin-bottom: 10px;
-  text-align: left;
-  margin-left: 10px;
-  font-size: 14px;
+  margin-bottom: 18px;
+  text-align: center;
+  font-size: 19px;
   color: rgba(150, 149, 149, 0.687); }
 
+.programsContainer {
+  width: 100%; }
+
 .programs {
-  width: 100%;
+  width: 76%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row; }
 
 .programPlan {
   width: 300px;
   height: auto;
+  background-color: #2e2e2e;
   margin-left: 10px;
   margin-right: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden; }
   .programPlan img {
-    width: 80%;
-    border: ridge 1px #616161; }
+    width: 100%; }
+  .programPlan:hover {
+    box-shadow: 0 0 8px 6px #ccc;
+    transition: box-shadow .3s; }
 
 .programText {
   width: 100%;
-  margin-top: 5px; }
+  margin-top: 5px;
+  display: flex;
+  justify-content: center; }
   .programText a {
-    color: #313131;
-    font-size: 12px;
-    text-align: left; }
+    color: #fff;
+    font-size: 17px;
+    margin: 7px 0; }
 
 /*GENERALES*/
 * {
@@ -710,6 +732,17 @@ footer {
   text-align: center;
   margin-left: 20px; }
 
+.product {
+  cursor: pointer; }
+  .product:hover {
+    box-shadow: 0 0 8px 6px #ccc;
+    transition: box-shadow .3s; }
+
+.card-body.productInformation {
+  background-color: #2e2e2e; }
+  .card-body.productInformation p {
+    color: #fff; }
+
 .product img {
   border-bottom: 1px solid #bbb; }
 
@@ -762,47 +795,58 @@ footer {
 
 /* PROGRAMS.HTML */
 .sectionPrograms {
-  margin-top: 20px; }
+  margin-top: 20px;
+  width: 100%; }
 
 .titlePrograms {
   margin-bottom: 10px;
   text-transform: uppercase;
-  font-size: 20px;
-  text-align: left;
-  margin-left: 10px; }
+  font-size: 25px;
+  text-align: center; }
 
 .descriptionH3 {
-  margin-bottom: 10px;
-  text-align: left;
-  margin-left: 10px;
-  font-size: 14px;
+  margin-bottom: 18px;
+  text-align: center;
+  font-size: 19px;
   color: rgba(150, 149, 149, 0.687); }
 
+.programsContainer {
+  width: 100%; }
+
 .programs {
-  width: 100%;
+  width: 76%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row; }
 
 .programPlan {
   width: 300px;
   height: auto;
+  background-color: #2e2e2e;
   margin-left: 10px;
   margin-right: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden; }
   .programPlan img {
-    width: 80%;
-    border: ridge 1px #616161; }
+    width: 100%; }
+  .programPlan:hover {
+    box-shadow: 0 0 8px 6px #ccc;
+    transition: box-shadow .3s; }
 
 .programText {
   width: 100%;
-  margin-top: 5px; }
+  margin-top: 5px;
+  display: flex;
+  justify-content: center; }
   .programText a {
-    color: #313131;
-    font-size: 12px;
-    text-align: left; }
+    color: #fff;
+    font-size: 17px;
+    margin: 7px 0; }
 
 /*GENERALES*/
 * {
@@ -1008,6 +1052,17 @@ footer {
   .product {
     margin: 15px 20px; }
   /* PROGRAMS.HTML */
+  .descriptionH3 {
+    width: 85%;
+    margin: 0 auto; }
+  .programs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; }
+  .programPlan {
+    width: 100%;
+    margin: 15px 0; }
   /* TEAM.HTML */
   /* CONTACT.HTML */
   .contact {
@@ -1042,6 +1097,13 @@ footer {
   /* INDEX.HTML */
   /* PRUDUCTS.HTML */
   /* PROGRAMS.HTML */
+  .programText h3 {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 14px; }
+    .programText h3 a {
+      width: 50%; }
   /* TEAM.HTML */
   /* CONTACT.HTML */
   .contactForm form {

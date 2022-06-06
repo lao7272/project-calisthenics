@@ -16,6 +16,22 @@
     }
   
     /* PROGRAMS.HTML */
+    .descriptionH3{
+      width: 85%;
+      margin: 0 auto;
+    }
+    .programs{
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+    .programPlan{
+      width: 100%;
+      margin: 15px 0;
+    }
+    
+    
     /* TEAM.HTML */
     /* CONTACT.HTML */
   
@@ -65,6 +81,17 @@
     /* INDEX.HTML */
     /* PRUDUCTS.HTML */
     /* PROGRAMS.HTML */
+    .programText{
+      h3{
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 14px;
+        a{
+          width: 50%;
+        }
+      }
+    }
     /* TEAM.HTML */
     /* CONTACT.HTML */
   

@@ -10,7 +10,19 @@
     text-align: center;
     margin-left: 20px;
   }
-  
+  .product{
+    cursor: pointer;
+    &:hover{
+      box-shadow: 0 0 8px 6px #ccc;
+      transition: box-shadow .3s;
+    }
+  }
+  .card-body.productInformation {
+    background-color: $bgcolorTwo;
+    p{
+      color: map-get($fontStyle, color);
+    }
+}
   .product img {
     border-bottom: 1px solid #bbb;
   }
