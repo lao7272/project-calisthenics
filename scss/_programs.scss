@@ -1,4 +1,4 @@
-@import "global";
+
 /* PROGRAMS.HTML */
 
 .sectionPrograms {
@@ -17,7 +17,7 @@
     margin-bottom: 18px;
     text-align: center;
     font-size: 19px;
-    color: rgba(150, 149, 149, 0.687);
+    color: #969595af;
   }
   .programsContainer{
     width: 100%;
@@ -46,7 +46,7 @@
       width: 100%;
     }
     &:hover{
-      box-shadow: 0 0 8px 6px #ccc;
+      box-shadow:0 0 5px 1px #000;
       transition: box-shadow .3s;
     }
   }

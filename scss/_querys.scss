@@ -9,6 +9,22 @@
 @media screen and (min-width: 300px) and (max-width: 600px) {
     /* GENERALES */
     /* INDEX.HTML */
+    .sectionOne{
+      display: flex;
+      flex-direction: column;
+    }
+    .indexIframe iframe{
+      width: 90%;
+      margin: 0 auto;
+    }
+    .indexAside{
+      width: 100%;
+      margin: 20px 20px;
+    }
+    .linkProgram{
+      width: 80%;
+      margin: 0 auto;
+    }
     /* PRUDUCTS.HTML */
   
     .product {

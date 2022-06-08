@@ -1,22 +1,26 @@
 /*GENERALES*/
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0; }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   background-color: #f3f3f3; }
 
 a {
@@ -41,54 +45,7 @@ a {
     transition: all 0.2s ease-in; }
 
 .nav-link {
-  font-weight: 900;
-  font-size: 17px;
-  margin: 0 7px;
-  padding: 0 8px;
-  text-transform: uppercase; }
-
-/*FOOTER*/
-footer {
-  width: 100%;
-  height: 60px;
-  margin-top: 30px;
-  background-color: #222222; }
-  footer strong {
-    margin: 20px;
-    color: #e4e4e4; }
-
-/*GENERALES*/
-* {
-  margin: 0;
-  padding: 0; }
-
-body {
-  font-family: 'Quicksand', sans-serif;
-  background-color: #f3f3f3; }
-
-a {
-  text-decoration: none; }
-
-/* Nav */
-.navbar {
-  background-color: #222222; }
-
-.bar {
-  margin-right: 17px; }
-
-.navbar-brand img {
-  width: 63px;
-  margin-left: 17px; }
-
-.navbar-dark .navbar-nav .nav-link {
-  color: #fff;
-  text-align: center; }
-  .navbar-dark .navbar-nav .nav-link:hover {
-    color: #b7b6b6;
-    transition: all 0.2s ease-in; }
-
-.nav-link {
-  font-weight: 900;
+  font-weight: none;
   font-size: 17px;
   margin: 0 7px;
   padding: 0 8px;
@@ -105,59 +62,81 @@ footer {
     color: #e4e4e4; }
 
 /* INDEX.HTML */
-.mainSection {
-  width: auto;
-  margin-bottom: 20px; }
-  .mainSection img {
-    width: 100%; }
-  .mainSection h1 {
-    margin: 20px 0;
-    text-align: center; }
-
-.sectionOne {
+.mainContainer {
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: row; }
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/handstand2.jpg);
+  background-size: cover;
+  background-position: center; }
 
-.indexInfo {
-  width: 80%;
+.mainText {
+  text-align: center;
+  width: 60%;
+  color: #ffffffe4; }
+  .mainText h1 {
+    font-weight: bold;
+    text-shadow: 0 0 3px #000; }
+
+/*IndexInfo*/
+.sectionOne {
+  width: 100%;
+  max-width: 95%;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center; }
+  gap: 30px;
+  margin-top: 25px; }
 
 .indexInfoContent {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; }
+  justify-content: center; }
   .indexInfoContent h2 {
-    font-size: 18px;
+    font-size: 26px;
     text-align: center;
     margin-bottom: 15px; }
-  .indexInfoContent p {
-    font-size: 15px;
-    text-align: justify;
-    margin-left: 20px; }
+
+.indexIframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; }
+  .indexIframe iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 .indexAside {
-  width: 100%;
-  margin: 0 auto; }
+  align-self: center; }
 
-.linkProduct {
-  width: 50vw;
-  margin: 0 auto;
+.linkProgram {
+  width: 24vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center; }
-  .linkProduct a {
-    color: black;
-    text-align: center;
-    border: #e0e0e0 1px solid; }
-  .linkProduct img {
-    width: 80%;
-    margin: 0 auto; }
+  align-items: center;
+  background-color: #2e2e2e;
+  border-radius: 3px;
+  overflow: hidden; }
+  .linkProgram a {
+    color: #fff;
+    text-align: center; }
+    .linkProgram a h3 {
+      padding-top: 8px; }
+    .linkProgram a img {
+      width: 100%; }
+  .linkProgram:hover {
+    box-shadow: 0 0 7px 1px #000;
+    transition: box-shadow .3s; }
 
 /*GENERALES*/
 * {
@@ -165,7 +144,7 @@ footer {
   padding: 0; }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   background-color: #f3f3f3; }
 
 a {
@@ -190,7 +169,7 @@ a {
     transition: all 0.2s ease-in; }
 
 .nav-link {
-  font-weight: 900;
+  font-weight: none;
   font-size: 17px;
   margin: 0 7px;
   padding: 0 8px;
@@ -218,7 +197,7 @@ footer {
 .product {
   cursor: pointer; }
   .product:hover {
-    box-shadow: 0 0 8px 6px #ccc;
+    box-shadow: 0 0 5px 1px #000;
     transition: box-shadow .3s; }
 
 .card-body.productInformation {
@@ -228,53 +207,6 @@ footer {
 
 .product img {
   border-bottom: 1px solid #bbb; }
-
-/*GENERALES*/
-* {
-  margin: 0;
-  padding: 0; }
-
-body {
-  font-family: 'Quicksand', sans-serif;
-  background-color: #f3f3f3; }
-
-a {
-  text-decoration: none; }
-
-/* Nav */
-.navbar {
-  background-color: #222222; }
-
-.bar {
-  margin-right: 17px; }
-
-.navbar-brand img {
-  width: 63px;
-  margin-left: 17px; }
-
-.navbar-dark .navbar-nav .nav-link {
-  color: #fff;
-  text-align: center; }
-  .navbar-dark .navbar-nav .nav-link:hover {
-    color: #b7b6b6;
-    transition: all 0.2s ease-in; }
-
-.nav-link {
-  font-weight: 900;
-  font-size: 17px;
-  margin: 0 7px;
-  padding: 0 8px;
-  text-transform: uppercase; }
-
-/*FOOTER*/
-footer {
-  width: 100%;
-  height: 60px;
-  margin-top: 30px;
-  background-color: #222222; }
-  footer strong {
-    margin: 20px;
-    color: #e4e4e4; }
 
 /* PROGRAMS.HTML */
 .sectionPrograms {
@@ -291,7 +223,7 @@ footer {
   margin-bottom: 18px;
   text-align: center;
   font-size: 19px;
-  color: rgba(150, 149, 149, 0.687); }
+  color: #969595af; }
 
 .programsContainer {
   width: 100%; }
@@ -318,7 +250,7 @@ footer {
   .programPlan img {
     width: 100%; }
   .programPlan:hover {
-    box-shadow: 0 0 8px 6px #ccc;
+    box-shadow: 0 0 5px 1px #000;
     transition: box-shadow .3s; }
 
 .programText {
@@ -337,7 +269,7 @@ footer {
   padding: 0; }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   background-color: #f3f3f3; }
 
 a {
@@ -362,7 +294,7 @@ a {
     transition: all 0.2s ease-in; }
 
 .nav-link {
-  font-weight: 900;
+  font-weight: none;
   font-size: 17px;
   margin: 0 7px;
   padding: 0 8px;
@@ -416,7 +348,7 @@ footer {
   padding: 0; }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   background-color: #f3f3f3; }
 
 a {
@@ -441,7 +373,7 @@ a {
     transition: all 0.2s ease-in; }
 
 .nav-link {
-  font-weight: 900;
+  font-weight: none;
   font-size: 17px;
   margin: 0 7px;
   padding: 0 8px;
@@ -461,7 +393,6 @@ footer {
 .contact {
   background-color: #2e2e2e;
   box-shadow: 0 0 10px 10px #e0e0e0;
-  font-family: 'Quicksand', sans-serif;
   width: 72%;
   margin: 0 auto;
   color: white;
@@ -533,7 +464,7 @@ footer {
   padding: 0; }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   background-color: #f3f3f3; }
 
 a {
@@ -558,54 +489,7 @@ a {
     transition: all 0.2s ease-in; }
 
 .nav-link {
-  font-weight: 900;
-  font-size: 17px;
-  margin: 0 7px;
-  padding: 0 8px;
-  text-transform: uppercase; }
-
-/*FOOTER*/
-footer {
-  width: 100%;
-  height: 60px;
-  margin-top: 30px;
-  background-color: #222222; }
-  footer strong {
-    margin: 20px;
-    color: #e4e4e4; }
-
-/*GENERALES*/
-* {
-  margin: 0;
-  padding: 0; }
-
-body {
-  font-family: 'Quicksand', sans-serif;
-  background-color: #f3f3f3; }
-
-a {
-  text-decoration: none; }
-
-/* Nav */
-.navbar {
-  background-color: #222222; }
-
-.bar {
-  margin-right: 17px; }
-
-.navbar-brand img {
-  width: 63px;
-  margin-left: 17px; }
-
-.navbar-dark .navbar-nav .nav-link {
-  color: #fff;
-  text-align: center; }
-  .navbar-dark .navbar-nav .nav-link:hover {
-    color: #b7b6b6;
-    transition: all 0.2s ease-in; }
-
-.nav-link {
-  font-weight: 900;
+  font-weight: none;
   font-size: 17px;
   margin: 0 7px;
   padding: 0 8px;
@@ -622,59 +506,81 @@ footer {
     color: #e4e4e4; }
 
 /* INDEX.HTML */
-.mainSection {
-  width: auto;
-  margin-bottom: 20px; }
-  .mainSection img {
-    width: 100%; }
-  .mainSection h1 {
-    margin: 20px 0;
-    text-align: center; }
-
-.sectionOne {
+.mainContainer {
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: row; }
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/handstand2.jpg);
+  background-size: cover;
+  background-position: center; }
 
-.indexInfo {
-  width: 80%;
+.mainText {
+  text-align: center;
+  width: 60%;
+  color: #ffffffe4; }
+  .mainText h1 {
+    font-weight: bold;
+    text-shadow: 0 0 3px #000; }
+
+/*IndexInfo*/
+.sectionOne {
+  width: 100%;
+  max-width: 95%;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center; }
+  gap: 30px;
+  margin-top: 25px; }
 
 .indexInfoContent {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; }
+  justify-content: center; }
   .indexInfoContent h2 {
-    font-size: 18px;
+    font-size: 26px;
     text-align: center;
     margin-bottom: 15px; }
-  .indexInfoContent p {
-    font-size: 15px;
-    text-align: justify;
-    margin-left: 20px; }
+
+.indexIframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; }
+  .indexIframe iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 .indexAside {
-  width: 100%;
-  margin: 0 auto; }
+  align-self: center; }
 
-.linkProduct {
-  width: 50vw;
-  margin: 0 auto;
+.linkProgram {
+  width: 24vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center; }
-  .linkProduct a {
-    color: black;
-    text-align: center;
-    border: #e0e0e0 1px solid; }
-  .linkProduct img {
-    width: 80%;
-    margin: 0 auto; }
+  align-items: center;
+  background-color: #2e2e2e;
+  border-radius: 3px;
+  overflow: hidden; }
+  .linkProgram a {
+    color: #fff;
+    text-align: center; }
+    .linkProgram a h3 {
+      padding-top: 8px; }
+    .linkProgram a img {
+      width: 100%; }
+  .linkProgram:hover {
+    box-shadow: 0 0 7px 1px #000;
+    transition: box-shadow .3s; }
 
 /*GENERALES*/
 * {
@@ -682,7 +588,7 @@ footer {
   padding: 0; }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   background-color: #f3f3f3; }
 
 a {
@@ -707,7 +613,7 @@ a {
     transition: all 0.2s ease-in; }
 
 .nav-link {
-  font-weight: 900;
+  font-weight: none;
   font-size: 17px;
   margin: 0 7px;
   padding: 0 8px;
@@ -735,7 +641,7 @@ footer {
 .product {
   cursor: pointer; }
   .product:hover {
-    box-shadow: 0 0 8px 6px #ccc;
+    box-shadow: 0 0 5px 1px #000;
     transition: box-shadow .3s; }
 
 .card-body.productInformation {
@@ -745,53 +651,6 @@ footer {
 
 .product img {
   border-bottom: 1px solid #bbb; }
-
-/*GENERALES*/
-* {
-  margin: 0;
-  padding: 0; }
-
-body {
-  font-family: 'Quicksand', sans-serif;
-  background-color: #f3f3f3; }
-
-a {
-  text-decoration: none; }
-
-/* Nav */
-.navbar {
-  background-color: #222222; }
-
-.bar {
-  margin-right: 17px; }
-
-.navbar-brand img {
-  width: 63px;
-  margin-left: 17px; }
-
-.navbar-dark .navbar-nav .nav-link {
-  color: #fff;
-  text-align: center; }
-  .navbar-dark .navbar-nav .nav-link:hover {
-    color: #b7b6b6;
-    transition: all 0.2s ease-in; }
-
-.nav-link {
-  font-weight: 900;
-  font-size: 17px;
-  margin: 0 7px;
-  padding: 0 8px;
-  text-transform: uppercase; }
-
-/*FOOTER*/
-footer {
-  width: 100%;
-  height: 60px;
-  margin-top: 30px;
-  background-color: #222222; }
-  footer strong {
-    margin: 20px;
-    color: #e4e4e4; }
 
 /* PROGRAMS.HTML */
 .sectionPrograms {
@@ -808,7 +667,7 @@ footer {
   margin-bottom: 18px;
   text-align: center;
   font-size: 19px;
-  color: rgba(150, 149, 149, 0.687); }
+  color: #969595af; }
 
 .programsContainer {
   width: 100%; }
@@ -835,7 +694,7 @@ footer {
   .programPlan img {
     width: 100%; }
   .programPlan:hover {
-    box-shadow: 0 0 8px 6px #ccc;
+    box-shadow: 0 0 5px 1px #000;
     transition: box-shadow .3s; }
 
 .programText {
@@ -854,7 +713,7 @@ footer {
   padding: 0; }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   background-color: #f3f3f3; }
 
 a {
@@ -879,7 +738,7 @@ a {
     transition: all 0.2s ease-in; }
 
 .nav-link {
-  font-weight: 900;
+  font-weight: none;
   font-size: 17px;
   margin: 0 7px;
   padding: 0 8px;
@@ -933,7 +792,7 @@ footer {
   padding: 0; }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   background-color: #f3f3f3; }
 
 a {
@@ -958,7 +817,7 @@ a {
     transition: all 0.2s ease-in; }
 
 .nav-link {
-  font-weight: 900;
+  font-weight: none;
   font-size: 17px;
   margin: 0 7px;
   padding: 0 8px;
@@ -978,7 +837,6 @@ footer {
 .contact {
   background-color: #2e2e2e;
   box-shadow: 0 0 10px 10px #e0e0e0;
-  font-family: 'Quicksand', sans-serif;
   width: 72%;
   margin: 0 auto;
   color: white;
@@ -1048,6 +906,18 @@ footer {
 @media screen and (min-width: 300px) and (max-width: 600px) {
   /* GENERALES */
   /* INDEX.HTML */
+  .sectionOne {
+    display: flex;
+    flex-direction: column; }
+  .indexIframe iframe {
+    width: 90%;
+    margin: 0 auto; }
+  .indexAside {
+    width: 100%;
+    margin: 20px 20px; }
+  .linkProgram {
+    width: 80%;
+    margin: 0 auto; }
   /* PRUDUCTS.HTML */
   .product {
     margin: 15px 20px; }
