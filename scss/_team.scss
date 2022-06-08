@@ -1,44 +1,54 @@
 @import "global";
 /* TEAM.HTML */
 
-.sectionTeam {
-    width: 100%;
-    margin-top: 30px;
+.sectionTeam{
+  width: 100%;
+  margin-top: 30px;
+}
+.teamTitle{
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.profiles{
+  margin:0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 88%;
+}
+.profile{
+  display: flex;
+  flex-direction: row; 
+  background-color: $bgcolorTwo;
+  max-width: 90%;
+  img{
+    width: 40%;    
+    margin: 20px 0 20px 20px;
+    border-radius: 3px;
+    border: solid 1px #dbdbdb;
   }
-  
-  .teamTitle {
-    margin-left: 20px;
-    font-size: 20px;
+}
+
+.profileInfo{
+  width: 40%;
+  font-size: 16px;
+  margin: 20px;
+  h3 {
     text-align: left;
-    margin-bottom: 15px;
+    font-size: 14px;
+    color: #fff;
   }
-  
-  .profile {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-  
-    img {
-      width: 30%;
-      height: 300px;
-      margin-right: 10px;
-      margin-left: 50px;
+  p {
+    color: #fff;
+    text-align: justify;
+    font-size: 14px;
+  }
+  a{
+    color: #fff;
+    &:hover{
+      color: #dbdbdb;
+      transition: all .3s;
     }
   }
-  
-  .profileInfo {
-    width: 40%;
-    font-size: 13px;
-  
-    h3 {
-      text-align: left;
-      font-size: 14px;
-      color: rgb(48, 48, 48);
-    }
-  
-    p {
-      text-align: justify;
-      font-size: 11px;
-    }
-  }
-  
+}
