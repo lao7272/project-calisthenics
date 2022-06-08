@@ -313,7 +313,8 @@ footer {
 /* TEAM.HTML */
 .sectionTeam {
   width: 100%;
-  margin-top: 30px; }
+  margin-top: 30px;
+  width: 100%; }
 
 .teamTitle {
   font-size: 25px;
@@ -322,18 +323,18 @@ footer {
   margin-bottom: 15px; }
 
 .profiles {
+  width: 94%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 88%; }
+  display: flex;
+  justify-content: space-between; }
 
 .profile {
-  display: flex;
-  flex-direction: row;
+  margin: 15px;
   background-color: #2e2e2e;
-  max-width: 90%; }
+  display: flex; }
   .profile img {
     width: 40%;
+    height: auto;
     margin: 20px 0 20px 20px;
     border-radius: 3px;
     border: solid 1px #dbdbdb; }
@@ -771,7 +772,8 @@ footer {
 /* TEAM.HTML */
 .sectionTeam {
   width: 100%;
-  margin-top: 30px; }
+  margin-top: 30px;
+  width: 100%; }
 
 .teamTitle {
   font-size: 25px;
@@ -780,18 +782,18 @@ footer {
   margin-bottom: 15px; }
 
 .profiles {
+  width: 94%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 88%; }
+  display: flex;
+  justify-content: space-between; }
 
 .profile {
-  display: flex;
-  flex-direction: row;
+  margin: 15px;
   background-color: #2e2e2e;
-  max-width: 90%; }
+  display: flex; }
   .profile img {
     width: 40%;
+    height: auto;
     margin: 20px 0 20px 20px;
     border-radius: 3px;
     border: solid 1px #dbdbdb; }
@@ -941,8 +943,7 @@ footer {
     width: 90%;
     margin: 0 auto; }
   .indexAside {
-    width: 100%;
-    margin: 20px 20px; }
+    width: 100%; }
   .linkProgram {
     width: 80%;
     margin: 0 auto; }
@@ -962,6 +963,10 @@ footer {
     width: 100%;
     margin: 15px 0; }
   /* TEAM.HTML */
+  .profiles {
+    display: flex;
+    flex-direction: column;
+    margin: 20px; }
   /* CONTACT.HTML */
   .contact {
     width: 80%; }

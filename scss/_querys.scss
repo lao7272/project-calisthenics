@@ -19,7 +19,6 @@
     }
     .indexAside{
       width: 100%;
-      margin: 20px 20px;
     }
     .linkProgram{
       width: 80%;
@@ -49,6 +48,11 @@
     
     
     /* TEAM.HTML */
+    .profiles{
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+    }
     /* CONTACT.HTML */
   
     .contact {
