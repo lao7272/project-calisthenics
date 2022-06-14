@@ -2,27 +2,35 @@
 /* PRODUCTS.HTML */
 
 .sectionProducts {
-    margin-top: 20px;
+    margin-top: 25px;
   }
   
   .titleProducts {
-    margin-bottom: 20px;
     text-align: center;
-    margin-left: 20px;
   }
   .product{
     cursor: pointer;
     &:hover{
-      box-shadow: 0 0 5px 1px #000;
-      transition: box-shadow .3s;
+      transition: .3s all ease-in;
+      transform: translateY(-5px);
+      box-shadow: 0 0 10px 5px #a3a3a3;   
     }
+    
   }
+  
+  
   .card-body.productInformation {
     background-color: $bgcolorTwo;
+    padding: 5px;
     p{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      text-align: center;
       color: map-get($fontStyle, color);
     }
 }
+
   .product img {
     border-bottom: 1px solid #bbb;
   }

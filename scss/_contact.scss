@@ -72,9 +72,9 @@
     background-size: 200%;
   
     &:hover {
-      transition: all .3s;
+      transition: all .3s ease-in;
       animation: forwards animate 0.3s;
-      transform: translateY(-3%);
+      transform: scale(1.03);
     }
   }
   
