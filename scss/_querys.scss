@@ -6,7 +6,7 @@
 @import "contact";
 /* MEDIAS QUERY */
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 576px) {
     /* GENERALES */
     footer {
       .footerContainer{
@@ -19,7 +19,10 @@
     }
     /* INDEX.HTML */
     .mainContainer {
-      height: 70vh;
+      height: 85vh;
+      background:  linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/l-sit4.JPG);
+      background-size: cover;
+      background-position: center;
     }
     .sectionOne{
       display: flex;
@@ -35,6 +38,9 @@
     .linkProgram{
       width: 80%;
       margin: 0 auto;
+    }
+    .carouselProduct{
+      width: 80%;
     }
     /* PRUDUCTS.HTML */
   
@@ -109,9 +115,15 @@
     }
   }
   
-  @media screen and (min-width: 601px) and (max-width: 1024px) {
+  @media screen and (min-width: 577px) and (max-width: 1024px) {
     /* GENERAL */
     /* INDEX.HTML */
+    .mainContainer {
+      height: 80vh;
+      background:  linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/l-sit3.JPG);
+      background-size: cover;
+      background-position:center;
+    }
     /* PRUDUCTS.HTML */
     /* PROGRAMS.HTML */
     .programText{

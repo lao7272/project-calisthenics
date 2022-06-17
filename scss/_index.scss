@@ -94,3 +94,25 @@
       box-shadow: 0 0 7px 7px #a3a3a3;      
     }
   }
+  .carouselSection{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carouselProduct{
+    width: 30%;
+    box-shadow: 0 0 3px 3px #a3a3a3;
+  }
+  .pruductButton{
+    padding: 10px;
+    border: 1px solid $bgcolorTwo;
+    color: $bgcolorTwo;
+    margin-top: 20px;
+    &:hover{
+      transition: all .3s ease-in;
+      color: #fff;
+      background-color: $bgcolorTwo;
+    }
+  }

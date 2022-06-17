@@ -184,6 +184,27 @@ footer {
     transition: box-shadow .3s;
     box-shadow: 0 0 7px 7px #a3a3a3; }
 
+.carouselSection {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.carouselProduct {
+  width: 30%;
+  box-shadow: 0 0 3px 3px #a3a3a3; }
+
+.pruductButton {
+  padding: 10px;
+  border: 1px solid #2e2e2e;
+  color: #2e2e2e;
+  margin-top: 20px; }
+  .pruductButton:hover {
+    transition: all .3s ease-in;
+    color: #fff;
+    background-color: #2e2e2e; }
+
 /*GENERALES*/
 * {
   margin: 0;
@@ -305,25 +326,23 @@ footer {
   width: 100%; }
 
 .titlePrograms {
-  margin-bottom: 10px;
   text-transform: uppercase;
   font-size: 25px;
   text-align: center; }
 
 .descriptionH3 {
-  margin-bottom: 18px;
+  margin-top: 20px;
   text-align: center;
   font-size: 19px;
   color: #969595af; }
 
 .programsContainer {
+  margin-top: 20px;
   width: 100%; }
 
 .programs {
-  width: 76%;
-  margin: 0 auto;
   display: flex;
-  flex-direction: row; }
+  justify-content: center; }
 
 .programPlan {
   width: 300px;
@@ -348,11 +367,20 @@ footer {
   width: 100%;
   margin-top: 5px;
   display: flex;
-  justify-content: center; }
-  .programText a {
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5px; }
+  .programText p {
+    width: 100%;
+    text-align: center;
     color: #fff;
-    font-size: 17px;
-    margin: 7px 0; }
+    font-size: 15px;
+    margin: 0; }
+
+.programs2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; }
 
 /*GENERALES*/
 * {
@@ -817,6 +845,27 @@ footer {
     transition: box-shadow .3s;
     box-shadow: 0 0 7px 7px #a3a3a3; }
 
+.carouselSection {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.carouselProduct {
+  width: 30%;
+  box-shadow: 0 0 3px 3px #a3a3a3; }
+
+.pruductButton {
+  padding: 10px;
+  border: 1px solid #2e2e2e;
+  color: #2e2e2e;
+  margin-top: 20px; }
+  .pruductButton:hover {
+    transition: all .3s ease-in;
+    color: #fff;
+    background-color: #2e2e2e; }
+
 /*GENERALES*/
 * {
   margin: 0;
@@ -938,25 +987,23 @@ footer {
   width: 100%; }
 
 .titlePrograms {
-  margin-bottom: 10px;
   text-transform: uppercase;
   font-size: 25px;
   text-align: center; }
 
 .descriptionH3 {
-  margin-bottom: 18px;
+  margin-top: 20px;
   text-align: center;
   font-size: 19px;
   color: #969595af; }
 
 .programsContainer {
+  margin-top: 20px;
   width: 100%; }
 
 .programs {
-  width: 76%;
-  margin: 0 auto;
   display: flex;
-  flex-direction: row; }
+  justify-content: center; }
 
 .programPlan {
   width: 300px;
@@ -981,11 +1028,20 @@ footer {
   width: 100%;
   margin-top: 5px;
   display: flex;
-  justify-content: center; }
-  .programText a {
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5px; }
+  .programText p {
+    width: 100%;
+    text-align: center;
     color: #fff;
-    font-size: 17px;
-    margin: 7px 0; }
+    font-size: 15px;
+    margin: 0; }
+
+.programs2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; }
 
 /*GENERALES*/
 * {
@@ -1281,13 +1337,16 @@ footer {
     background-position: right; } }
 
 /* MEDIAS QUERY */
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 576px) {
   /* GENERALES */
   footer .footerContainer .footerLogo img {
     width: 50px; }
   /* INDEX.HTML */
   .mainContainer {
-    height: 70vh; }
+    height: 85vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/l-sit4.JPG);
+    background-size: cover;
+    background-position: center; }
   .sectionOne {
     display: flex;
     flex-direction: column; }
@@ -1299,6 +1358,8 @@ footer {
   .linkProgram {
     width: 80%;
     margin: 0 auto; }
+  .carouselProduct {
+    width: 80%; }
   /* PRUDUCTS.HTML */
   .product {
     margin: 15px 20px; }
@@ -1348,9 +1409,14 @@ footer {
     width: 100%;
     margin: 0; } }
 
-@media screen and (min-width: 601px) and (max-width: 1024px) {
+@media screen and (min-width: 577px) and (max-width: 1024px) {
   /* GENERAL */
   /* INDEX.HTML */
+  .mainContainer {
+    height: 80vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/l-sit3.JPG);
+    background-size: cover;
+    background-position: center; }
   /* PRUDUCTS.HTML */
   /* PROGRAMS.HTML */
   .programText h3 {
