@@ -3,53 +3,45 @@
 
 .sectionTeam{
   width: 100%;
-  margin-top: 30px;
+  margin-top: 20px;
   width: 100%;
 }
 .teamTitle{
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .profiles{
-  width: 94%;
+  width: 95%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .profile{
+  width: 300px;
+  height: 200px;
   margin: 15px;
-  background-color: $bgcolorTwo;
+  background: url('../img/profile/random.jpg');
+  background-size: cover;
+  border-radius: 5px;
+  border: 1px solid #ccc;
   display: flex;
-  img{
-    width: 40%;
-    height: auto;    
-    margin: 20px 0 20px 20px;
-    border-radius: 3px;
-    border: solid 1px #dbdbdb;
-  }
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .profileInfo{
-  width: 40%;
-  font-size: 16px;
-  margin: 20px;
   h3 {
-    text-align: left;
-    font-size: 14px;
-    color: #fff;
+    margin: 3px 0;
+    text-align: center;
+    font-size: 19px;
   }
   p {
-    color: #fff;
-    text-align: justify;
+    margin: 3px 0 6px 0;
+    text-align: center;
     font-size: 14px;
   }
-  a{
-    color: #fff;
-    &:hover{
-      color: #dbdbdb;
-      transition: all .3s;
-    }
-  }
+  
 }

@@ -330,7 +330,7 @@ footer {
   font-size: 25px;
   text-align: center; }
 
-.descriptionH3 {
+.descriptionProgramH2 {
   margin-top: 20px;
   text-align: center;
   font-size: 19px;
@@ -348,8 +348,7 @@ footer {
   width: 300px;
   height: auto;
   background-color: #2e2e2e;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -370,12 +369,25 @@ footer {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 5px; }
+  .programText h3 {
+    width: auto;
+    padding-bottom: 0.8px;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    margin: 0 auto; }
   .programText p {
     width: 100%;
     text-align: center;
     color: #fff;
     font-size: 15px;
     margin: 0; }
+
+.programDescription p {
+  color: #d0d0d0;
+  font-size: 12px; }
 
 .programs2 {
   margin-top: 20px;
@@ -473,49 +485,43 @@ footer {
 /* TEAM.HTML */
 .sectionTeam {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 20px;
   width: 100%; }
 
 .teamTitle {
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
 
 .profiles {
-  width: 94%;
+  width: 95%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between; }
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .profile {
+  width: 300px;
+  height: 200px;
   margin: 15px;
-  background-color: #2e2e2e;
-  display: flex; }
-  .profile img {
-    width: 40%;
-    height: auto;
-    margin: 20px 0 20px 20px;
-    border-radius: 3px;
-    border: solid 1px #dbdbdb; }
+  background: url("../img/profile/random.jpg");
+  background-size: cover;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; }
 
-.profileInfo {
-  width: 40%;
-  font-size: 16px;
-  margin: 20px; }
-  .profileInfo h3 {
-    text-align: left;
-    font-size: 14px;
-    color: #fff; }
-  .profileInfo p {
-    color: #fff;
-    text-align: justify;
-    font-size: 14px; }
-  .profileInfo a {
-    color: #fff; }
-    .profileInfo a:hover {
-      color: #dbdbdb;
-      transition: all .3s; }
+.profileInfo h3 {
+  margin: 3px 0;
+  text-align: center;
+  font-size: 19px; }
+
+.profileInfo p {
+  margin: 3px 0 6px 0;
+  text-align: center;
+  font-size: 14px; }
 
 /*GENERALES*/
 * {
@@ -656,24 +662,16 @@ footer {
 
 .submit {
   grid-template-columns: 1 / 1;
-  color: white;
+  color: #121212;
   width: 30%;
   padding: 0.7rem;
   cursor: pointer;
   border: none;
-  border-radius: 3px;
-  background-image: linear-gradient(to right top, #252525, #551d1d, #6f1818, #9b1111, #c00b0b, #ff0000);
-  background-size: 200%; }
+  border-radius: 3px; }
   .submit:hover {
     transition: all .3s ease-in;
-    animation: forwards animate 0.3s;
-    transform: scale(1.03); }
-
-@keyframes animate {
-  0% {
-    background-position: left; }
-  100% {
-    background-position: right; } }
+    color: #fff;
+    background-color: #121212; }
 
 /*GENERALES*/
 * {
@@ -991,7 +989,7 @@ footer {
   font-size: 25px;
   text-align: center; }
 
-.descriptionH3 {
+.descriptionProgramH2 {
   margin-top: 20px;
   text-align: center;
   font-size: 19px;
@@ -1009,8 +1007,7 @@ footer {
   width: 300px;
   height: auto;
   background-color: #2e2e2e;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1031,12 +1028,25 @@ footer {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 5px; }
+  .programText h3 {
+    width: auto;
+    padding-bottom: 0.8px;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    margin: 0 auto; }
   .programText p {
     width: 100%;
     text-align: center;
     color: #fff;
     font-size: 15px;
     margin: 0; }
+
+.programDescription p {
+  color: #d0d0d0;
+  font-size: 12px; }
 
 .programs2 {
   margin-top: 20px;
@@ -1134,49 +1144,43 @@ footer {
 /* TEAM.HTML */
 .sectionTeam {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 20px;
   width: 100%; }
 
 .teamTitle {
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
 
 .profiles {
-  width: 94%;
+  width: 95%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between; }
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .profile {
+  width: 300px;
+  height: 200px;
   margin: 15px;
-  background-color: #2e2e2e;
-  display: flex; }
-  .profile img {
-    width: 40%;
-    height: auto;
-    margin: 20px 0 20px 20px;
-    border-radius: 3px;
-    border: solid 1px #dbdbdb; }
+  background: url("../img/profile/random.jpg");
+  background-size: cover;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; }
 
-.profileInfo {
-  width: 40%;
-  font-size: 16px;
-  margin: 20px; }
-  .profileInfo h3 {
-    text-align: left;
-    font-size: 14px;
-    color: #fff; }
-  .profileInfo p {
-    color: #fff;
-    text-align: justify;
-    font-size: 14px; }
-  .profileInfo a {
-    color: #fff; }
-    .profileInfo a:hover {
-      color: #dbdbdb;
-      transition: all .3s; }
+.profileInfo h3 {
+  margin: 3px 0;
+  text-align: center;
+  font-size: 19px; }
+
+.profileInfo p {
+  margin: 3px 0 6px 0;
+  text-align: center;
+  font-size: 14px; }
 
 /*GENERALES*/
 * {
@@ -1317,24 +1321,16 @@ footer {
 
 .submit {
   grid-template-columns: 1 / 1;
-  color: white;
+  color: #121212;
   width: 30%;
   padding: 0.7rem;
   cursor: pointer;
   border: none;
-  border-radius: 3px;
-  background-image: linear-gradient(to right top, #252525, #551d1d, #6f1818, #9b1111, #c00b0b, #ff0000);
-  background-size: 200%; }
+  border-radius: 3px; }
   .submit:hover {
     transition: all .3s ease-in;
-    animation: forwards animate 0.3s;
-    transform: scale(1.03); }
-
-@keyframes animate {
-  0% {
-    background-position: left; }
-  100% {
-    background-position: right; } }
+    color: #fff;
+    background-color: #121212; }
 
 /* MEDIAS QUERY */
 @media screen and (min-width: 300px) and (max-width: 576px) {
@@ -1379,7 +1375,7 @@ footer {
   .profiles {
     display: flex;
     flex-direction: column;
-    margin: 20px; }
+    align-items: center; }
   /* CONTACT.HTML */
   .contact {
     width: 80%; }
