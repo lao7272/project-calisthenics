@@ -3,14 +3,13 @@
 
 .sectionTeam{
   width: 100%;
-  margin-top: 20px;
+  margin-top: 25px;
   width: 100%;
 }
 .teamTitle{
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 20px;
 }
 .profiles{
   width: 95%;
@@ -21,17 +20,101 @@
 }
 .profile{
   width: 300px;
-  height: 200px;
-  margin: 15px;
-  background: url('../img/profile/random.jpg');
-  background-size: cover;
+  height: 300px;
+  margin: 15px;  
   border-radius: 5px;
   border: 1px solid #ccc;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  .profileInfo{
+    display: none;
+  }
 }
-
+.profile1{
+  background: url('../img/profile/profile1.jpg');
+  background-size: cover;
+  &:hover, :focus{
+    transition: all .3s;
+    transform: scale(1.05);
+    background:  linear-gradient(to right, #ffffff34, #ffffff40), url('../img/profile/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    .profileInfo{
+      display: block;
+    }
+  }
+}
+.profile2{
+  background: url('../img/profile/profile2.jpg');
+  background-size: cover;
+  &:hover, :focus{
+    transition: all .3s;
+    transform: scale(1.05);
+    background:  linear-gradient(to right, #ffffff40, #ffffff40), url('../img/profile/profile2.jpg');
+    background-size: cover;
+    background-position: center;
+    .profileInfo{
+      display: block;
+    }
+  }
+}
+.profile3{
+  background: url('../img/profile/profile3.jpg');
+  background-size: cover;
+  &:hover, :focus{
+    transition: all .3s;
+    transform: scale(1.05);
+    background:  linear-gradient(to right, #ffffff40, #ffffff40), url('../img/profile/profile3.jpg');
+    background-size: cover;
+    background-position: center;
+    .profileInfo{
+      display: block;
+    }
+  }
+}
+.profile4{
+  background: url('../img/profile/profile4.jpg');
+  background-size: cover;
+  &:hover, :focus{
+    transition: all .3s;
+    transform: scale(1.05);
+    background:  linear-gradient(to right, #ffffff40, #ffffff40), url('../img/profile/profile4.jpg');
+    background-size: cover;
+    background-position: center;
+    .profileInfo{
+      display: block;
+    }
+  }
+}
+.profile5{
+  background: url('../img/profile/profile5.jpg');
+  background-size: cover;
+  &:hover, :focus{
+    transition: all .3s;
+    transform: scale(1.05);
+    background:  linear-gradient(to right, #ffffff40, #ffffff40), url('../img/profile/profile5.jpg');
+    background-size: cover;
+    background-position: center;
+    .profileInfo{
+      display: block;
+    }
+  }
+}
+.profile6{
+  background: url('../img/profile/profile6.jpg');
+  background-size: cover;
+  &:hover, :focus{
+    transition: all .3s;
+    transform: scale(1.05);
+    background:  linear-gradient(to right, #ffffff40, #ffffff40), url('../img/profile/profile6.jpg');
+    background-size: cover;
+    background-position: center;
+    .profileInfo{
+      display: block;
+    }
+  }
+}
 .profileInfo{
   h3 {
     margin: 3px 0;

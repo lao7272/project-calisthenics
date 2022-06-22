@@ -55,7 +55,7 @@ a {
 footer {
   width: 100%;
   margin-top: 30px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/calisthenics-1605096763.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/global/footer.jpg);
   background-size: cover;
   background-position: center; }
   footer .footerContainer {
@@ -109,7 +109,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/l-sit3.JPG);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/index/l-sit1.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -119,17 +119,18 @@ footer {
   color: #ffffffe4; }
   .mainText h1 {
     font-weight: bold;
+    font-size: 40px;
     text-shadow: 0 0 3px #000; }
 
 /*IndexInfo*/
-.sectionOne {
+.indexSectionOne {
   width: 100%;
   max-width: 95%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-top: 25px; }
+  margin-top: 18px; }
 
 .indexInfoContent {
   width: 100%;
@@ -157,16 +158,17 @@ footer {
     height: 100%; }
 
 .indexAside {
-  align-self: center; }
+  align-self: flex-end; }
 
 .linkProgram {
-  width: 24vw;
+  width: 25vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   background-color: #2e2e2e;
-  border-radius: 3px; }
+  border-radius: 3px;
+  overflow: hidden; }
   .linkProgram h3 {
     padding-top: 8px;
     color: #fff;
@@ -184,15 +186,19 @@ footer {
     transition: box-shadow .3s;
     box-shadow: 0 0 7px 7px #a3a3a3; }
 
-.carouselSection {
+.indexSectionTwo {
   width: 100%;
-  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly; }
+
+.carouselAndButton {
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   align-items: center; }
 
 .carouselProduct {
-  width: 30%;
+  width: 400px;
   box-shadow: 0 0 3px 3px #a3a3a3; }
 
 .pruductButton {
@@ -204,6 +210,58 @@ footer {
     transition: all .3s ease-in;
     color: #fff;
     background-color: #2e2e2e; }
+
+.linkApp {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .linkApp h2 {
+    text-align: center; }
+
+.appStore {
+  width: 500px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background-color: #fff; }
+  .appStore p {
+    font-size: 25px;
+    margin: 0; }
+  .appStore i {
+    margin-right: 10px;
+    margin-bottom: 5px; }
+  .appStore:hover {
+    transition: all .3s;
+    color: #fff;
+    background-color: #000; }
+
+.googleStore {
+  width: 500px;
+  border-radius: 3px;
+  border: 1px solid #4285f4;
+  margin: 10px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4285f4;
+  background-color: #fff; }
+  .googleStore p {
+    font-size: 25px;
+    margin: 0; }
+  .googleStore i {
+    margin-right: 10px; }
+  .googleStore:hover {
+    transition: all .3s;
+    color: #fff;
+    background-color: #4285f4; }
 
 /*GENERALES*/
 * {
@@ -246,7 +304,7 @@ a {
 footer {
   width: 100%;
   margin-top: 30px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/calisthenics-1605096763.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/global/footer.jpg);
   background-size: cover;
   background-position: center; }
   footer .footerContainer {
@@ -345,7 +403,7 @@ footer {
   justify-content: center; }
 
 .programPlan {
-  width: 300px;
+  width: 25vw;
   height: auto;
   background-color: #2e2e2e;
   margin: 0 10px;
@@ -377,7 +435,7 @@ footer {
     text-align: center;
     color: #fff;
     font-size: 17px;
-    margin: 0 auto; }
+    margin: 5px auto; }
   .programText p {
     width: 100%;
     text-align: center;
@@ -389,7 +447,10 @@ footer {
   color: #d0d0d0;
   font-size: 12px; }
 
-.programs2 {
+.programsContainerTwo {
+  width: 100%; }
+
+.programsTwo {
   margin-top: 20px;
   display: flex;
   justify-content: center; }
@@ -435,7 +496,7 @@ a {
 footer {
   width: 100%;
   margin-top: 30px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/calisthenics-1605096763.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/global/footer.jpg);
   background-size: cover;
   background-position: center; }
   footer .footerContainer {
@@ -485,14 +546,13 @@ footer {
 /* TEAM.HTML */
 .sectionTeam {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 25px;
   width: 100%; }
 
 .teamTitle {
   font-size: 25px;
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 20px; }
+  text-align: center; }
 
 .profiles {
   width: 95%;
@@ -503,15 +563,87 @@ footer {
 
 .profile {
   width: 300px;
-  height: 200px;
+  height: 300px;
   margin: 15px;
-  background: url("../img/profile/random.jpg");
-  background-size: cover;
   border-radius: 5px;
   border: 1px solid #ccc;
   display: flex;
   align-items: flex-end;
   justify-content: center; }
+  .profile .profileInfo {
+    display: none; }
+
+.profile1 {
+  background: url("../img/profile/profile1.jpg");
+  background-size: cover; }
+  .profile1:hover, .profile1 :focus {
+    transition: all .3s;
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffffff34, #ffffff40), url("../img/profile/profile1.jpg");
+    background-size: cover;
+    background-position: center; }
+    .profile1:hover .profileInfo, .profile1 :focus .profileInfo {
+      display: block; }
+
+.profile2 {
+  background: url("../img/profile/profile2.jpg");
+  background-size: cover; }
+  .profile2:hover, .profile2 :focus {
+    transition: all .3s;
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile2.jpg");
+    background-size: cover;
+    background-position: center; }
+    .profile2:hover .profileInfo, .profile2 :focus .profileInfo {
+      display: block; }
+
+.profile3 {
+  background: url("../img/profile/profile3.jpg");
+  background-size: cover; }
+  .profile3:hover, .profile3 :focus {
+    transition: all .3s;
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile3.jpg");
+    background-size: cover;
+    background-position: center; }
+    .profile3:hover .profileInfo, .profile3 :focus .profileInfo {
+      display: block; }
+
+.profile4 {
+  background: url("../img/profile/profile4.jpg");
+  background-size: cover; }
+  .profile4:hover, .profile4 :focus {
+    transition: all .3s;
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile4.jpg");
+    background-size: cover;
+    background-position: center; }
+    .profile4:hover .profileInfo, .profile4 :focus .profileInfo {
+      display: block; }
+
+.profile5 {
+  background: url("../img/profile/profile5.jpg");
+  background-size: cover; }
+  .profile5:hover, .profile5 :focus {
+    transition: all .3s;
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile5.jpg");
+    background-size: cover;
+    background-position: center; }
+    .profile5:hover .profileInfo, .profile5 :focus .profileInfo {
+      display: block; }
+
+.profile6 {
+  background: url("../img/profile/profile6.jpg");
+  background-size: cover; }
+  .profile6:hover, .profile6 :focus {
+    transition: all .3s;
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile6.jpg");
+    background-size: cover;
+    background-position: center; }
+    .profile6:hover .profileInfo, .profile6 :focus .profileInfo {
+      display: block; }
 
 .profileInfo h3 {
   margin: 3px 0;
@@ -564,7 +696,7 @@ a {
 footer {
   width: 100%;
   margin-top: 30px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/calisthenics-1605096763.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/global/footer.jpg);
   background-size: cover;
   background-position: center; }
   footer .footerContainer {
@@ -714,7 +846,7 @@ a {
 footer {
   width: 100%;
   margin-top: 30px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/calisthenics-1605096763.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/global/footer.jpg);
   background-size: cover;
   background-position: center; }
   footer .footerContainer {
@@ -768,7 +900,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/l-sit3.JPG);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/index/l-sit1.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -778,17 +910,18 @@ footer {
   color: #ffffffe4; }
   .mainText h1 {
     font-weight: bold;
+    font-size: 40px;
     text-shadow: 0 0 3px #000; }
 
 /*IndexInfo*/
-.sectionOne {
+.indexSectionOne {
   width: 100%;
   max-width: 95%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-top: 25px; }
+  margin-top: 18px; }
 
 .indexInfoContent {
   width: 100%;
@@ -816,16 +949,17 @@ footer {
     height: 100%; }
 
 .indexAside {
-  align-self: center; }
+  align-self: flex-end; }
 
 .linkProgram {
-  width: 24vw;
+  width: 25vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   background-color: #2e2e2e;
-  border-radius: 3px; }
+  border-radius: 3px;
+  overflow: hidden; }
   .linkProgram h3 {
     padding-top: 8px;
     color: #fff;
@@ -843,15 +977,19 @@ footer {
     transition: box-shadow .3s;
     box-shadow: 0 0 7px 7px #a3a3a3; }
 
-.carouselSection {
+.indexSectionTwo {
   width: 100%;
-  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly; }
+
+.carouselAndButton {
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   align-items: center; }
 
 .carouselProduct {
-  width: 30%;
+  width: 400px;
   box-shadow: 0 0 3px 3px #a3a3a3; }
 
 .pruductButton {
@@ -863,6 +1001,58 @@ footer {
     transition: all .3s ease-in;
     color: #fff;
     background-color: #2e2e2e; }
+
+.linkApp {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .linkApp h2 {
+    text-align: center; }
+
+.appStore {
+  width: 500px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background-color: #fff; }
+  .appStore p {
+    font-size: 25px;
+    margin: 0; }
+  .appStore i {
+    margin-right: 10px;
+    margin-bottom: 5px; }
+  .appStore:hover {
+    transition: all .3s;
+    color: #fff;
+    background-color: #000; }
+
+.googleStore {
+  width: 500px;
+  border-radius: 3px;
+  border: 1px solid #4285f4;
+  margin: 10px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4285f4;
+  background-color: #fff; }
+  .googleStore p {
+    font-size: 25px;
+    margin: 0; }
+  .googleStore i {
+    margin-right: 10px; }
+  .googleStore:hover {
+    transition: all .3s;
+    color: #fff;
+    background-color: #4285f4; }
 
 /*GENERALES*/
 * {
@@ -905,7 +1095,7 @@ a {
 footer {
   width: 100%;
   margin-top: 30px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/calisthenics-1605096763.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/global/footer.jpg);
   background-size: cover;
   background-position: center; }
   footer .footerContainer {
@@ -1004,7 +1194,7 @@ footer {
   justify-content: center; }
 
 .programPlan {
-  width: 300px;
+  width: 25vw;
   height: auto;
   background-color: #2e2e2e;
   margin: 0 10px;
@@ -1036,7 +1226,7 @@ footer {
     text-align: center;
     color: #fff;
     font-size: 17px;
-    margin: 0 auto; }
+    margin: 5px auto; }
   .programText p {
     width: 100%;
     text-align: center;
@@ -1048,7 +1238,10 @@ footer {
   color: #d0d0d0;
   font-size: 12px; }
 
-.programs2 {
+.programsContainerTwo {
+  width: 100%; }
+
+.programsTwo {
   margin-top: 20px;
   display: flex;
   justify-content: center; }
@@ -1094,7 +1287,7 @@ a {
 footer {
   width: 100%;
   margin-top: 30px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/calisthenics-1605096763.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/global/footer.jpg);
   background-size: cover;
   background-position: center; }
   footer .footerContainer {
@@ -1144,14 +1337,13 @@ footer {
 /* TEAM.HTML */
 .sectionTeam {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 25px;
   width: 100%; }
 
 .teamTitle {
   font-size: 25px;
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 20px; }
+  text-align: center; }
 
 .profiles {
   width: 95%;
@@ -1162,15 +1354,87 @@ footer {
 
 .profile {
   width: 300px;
-  height: 200px;
+  height: 300px;
   margin: 15px;
-  background: url("../img/profile/random.jpg");
-  background-size: cover;
   border-radius: 5px;
   border: 1px solid #ccc;
   display: flex;
   align-items: flex-end;
   justify-content: center; }
+  .profile .profileInfo {
+    display: none; }
+
+.profile1 {
+  background: url("../img/profile/profile1.jpg");
+  background-size: cover; }
+  .profile1:hover, .profile1 :focus {
+    transition: all .3s;
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffffff34, #ffffff40), url("../img/profile/profile1.jpg");
+    background-size: cover;
+    background-position: center; }
+    .profile1:hover .profileInfo, .profile1 :focus .profileInfo {
+      display: block; }
+
+.profile2 {
+  background: url("../img/profile/profile2.jpg");
+  background-size: cover; }
+  .profile2:hover, .profile2 :focus {
+    transition: all .3s;
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile2.jpg");
+    background-size: cover;
+    background-position: center; }
+    .profile2:hover .profileInfo, .profile2 :focus .profileInfo {
+      display: block; }
+
+.profile3 {
+  background: url("../img/profile/profile3.jpg");
+  background-size: cover; }
+  .profile3:hover, .profile3 :focus {
+    transition: all .3s;
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile3.jpg");
+    background-size: cover;
+    background-position: center; }
+    .profile3:hover .profileInfo, .profile3 :focus .profileInfo {
+      display: block; }
+
+.profile4 {
+  background: url("../img/profile/profile4.jpg");
+  background-size: cover; }
+  .profile4:hover, .profile4 :focus {
+    transition: all .3s;
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile4.jpg");
+    background-size: cover;
+    background-position: center; }
+    .profile4:hover .profileInfo, .profile4 :focus .profileInfo {
+      display: block; }
+
+.profile5 {
+  background: url("../img/profile/profile5.jpg");
+  background-size: cover; }
+  .profile5:hover, .profile5 :focus {
+    transition: all .3s;
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile5.jpg");
+    background-size: cover;
+    background-position: center; }
+    .profile5:hover .profileInfo, .profile5 :focus .profileInfo {
+      display: block; }
+
+.profile6 {
+  background: url("../img/profile/profile6.jpg");
+  background-size: cover; }
+  .profile6:hover, .profile6 :focus {
+    transition: all .3s;
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile6.jpg");
+    background-size: cover;
+    background-position: center; }
+    .profile6:hover .profileInfo, .profile6 :focus .profileInfo {
+      display: block; }
 
 .profileInfo h3 {
   margin: 3px 0;
@@ -1223,7 +1487,7 @@ a {
 footer {
   width: 100%;
   margin-top: 30px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/calisthenics-1605096763.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/global/footer.jpg);
   background-size: cover;
   background-position: center; }
   footer .footerContainer {
@@ -1340,22 +1604,35 @@ footer {
   /* INDEX.HTML */
   .mainContainer {
     height: 85vh;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/l-sit4.JPG);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/index/l-sit2.jpg);
     background-size: cover;
     background-position: center; }
-  .sectionOne {
+  .indexSectionOne {
     display: flex;
     flex-direction: column; }
   .indexIframe iframe {
     width: 90%;
     margin: 0 auto; }
   .indexAside {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 0; }
   .linkProgram {
-    width: 80%;
+    width: 70%;
     margin: 0 auto; }
+  .indexSectionTwo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .carouselAndButton {
+    margin-bottom: 20px; }
   .carouselProduct {
     width: 80%; }
+  .linkApp {
+    height: auto; }
+  .appStore, .googleStore {
+    width: 70vw; }
   /* PRUDUCTS.HTML */
   .product {
     margin: 15px 20px; }
@@ -1363,14 +1640,27 @@ footer {
   .descriptionH3 {
     width: 85%;
     margin: 0 auto; }
-  .programs {
+  .programs, .programsTwo {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto; }
+  .programPlan {
+    width: 90%;
+    margin: 15px 0; }
+  .programText {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5px; }
+  .programsTwo {
     width: 90%;
     display: flex;
     flex-direction: column;
     margin: 0 auto; }
-  .programPlan {
-    width: 100%;
-    margin: 15px 0; }
   /* TEAM.HTML */
   .profiles {
     display: flex;
@@ -1409,19 +1699,22 @@ footer {
   /* GENERAL */
   /* INDEX.HTML */
   .mainContainer {
-    height: 80vh;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/l-sit3.JPG);
-    background-size: cover;
-    background-position: center; }
+    height: 80vh; }
+  .indexAside {
+    margin-bottom: 0; }
+  .carouselProduct {
+    width: 45vw;
+    box-shadow: 0 0 3px 3px #a3a3a3; }
+  .linkApp {
+    height: auto; }
+  .appStore, .googleStore {
+    width: 40vw; }
   /* PRUDUCTS.HTML */
   /* PROGRAMS.HTML */
   .programText h3 {
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 14px; }
-    .programText h3 a {
-      width: 50%; }
+    font-size: 15px; }
+  .programPlan {
+    width: 30vw; }
   /* TEAM.HTML */
   /* CONTACT.HTML */
   .contactForm form {

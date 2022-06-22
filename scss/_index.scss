@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background:  linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exercises/l-sit3.JPG);
+    background:  linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/index/l-sit1.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -17,19 +17,20 @@
     color: #ffffffe4;
     h1{      
       font-weight: bold;
+      font-size:40px;
       text-shadow: 0 0 3px #000;
     }
   }
     
   /*IndexInfo*/
-  .sectionOne{
+  .indexSectionOne{
     width: 100%;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 25px;
+    margin-top: 18px;
   }
   .indexInfoContent {
     width: 100%;
@@ -60,17 +61,18 @@
   }
   
   .indexAside{
-    align-self: center;
+    align-self: flex-end;
   }
   
   .linkProgram{
-    width: 24vw;
+    width: 25vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;    
     background-color: $bgcolorTwo;
     border-radius: 3px;
+    overflow: hidden;
     h3{
       padding-top: 8px;
       color: #fff;
@@ -94,15 +96,22 @@
       box-shadow: 0 0 7px 7px #a3a3a3;      
     }
   }
-  .carouselSection{
+
+  .indexSectionTwo{
     width: 100%;
-    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  
+  .carouselAndButton{
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .carouselProduct{
-    width: 30%;
+    width: 400px;
     box-shadow: 0 0 3px 3px #a3a3a3;
   }
   .pruductButton{
@@ -114,5 +123,65 @@
       transition: all .3s ease-in;
       color: #fff;
       background-color: $bgcolorTwo;
+    }
+  }
+
+  .linkApp{  
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+      text-align: center;
+    }  
+  }
+  .appStore{
+    width: 500px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #fff;
+    p{
+      font-size: 25px;
+      margin: 0;
+    }
+    i{
+      margin-right: 10px;
+      margin-bottom: 5px;
+    }
+    &:hover{
+      transition: all .3s;
+      color: #fff;
+      background-color: #000;
+    }
+  }
+  .googleStore{
+    width: 500px;
+    border-radius: 3px;
+    border: 1px solid #4285f4;
+    margin: 10px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4285f4;
+    background-color: #fff;
+    p{
+      font-size: 25px;
+      margin: 0;
+    }
+    i{
+      margin-right: 10px;
+    }
+    &:hover{
+      transition: all .3s;
+      color: #fff;
+      background-color: #4285f4;
     }
   }

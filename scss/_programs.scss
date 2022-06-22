@@ -27,7 +27,7 @@
     justify-content: center;
   }
   .programPlan {
-    width: 300px;
+    width: 25vw;
     height: auto;
     background-color: $bgcolorTwo;
     margin: 0 10px;
@@ -63,7 +63,7 @@
       text-align: center;
       color: map-get($fontStyle, color);
       font-size: 17px;
-      margin: 0 auto;
+      margin: 5px auto;
     }
     p {
       width: 100%;
@@ -80,7 +80,10 @@
 
     }
   }
-  .programs2{
+  .programsContainerTwo{
+    width: 100%;
+  }
+  .programsTwo{
     margin-top: 20px;
     display: flex;
     justify-content: center;
