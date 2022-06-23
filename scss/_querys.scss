@@ -4,15 +4,18 @@
 @import "programs";
 @import "team";
 @import "contact";
+
 /* MEDIAS QUERY */
 
+/* MOBILE */
 @media screen and (min-width: 300px) and (max-width: 576px) {
-    /* GENERALES */
+    /* GLOBAL */
     footer {
+      width: 100vw;
       .footerContainer{
         .footerLogo{
           img{
-            width: 50px;
+            width: 58px;
           }    
         }
       }
@@ -66,6 +69,7 @@
     }
   
     /* PROGRAMS.HTML */
+
     .descriptionH3{
       width: 85%;
       margin: 0 auto;
@@ -98,11 +102,13 @@
     }
     
     /* TEAM.HTML */
+
     .profiles{
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+    
     /* CONTACT.HTML */
   
     .contact {
@@ -148,7 +154,8 @@
   }
   
   @media screen and (min-width: 577px) and (max-width: 1024px) {
-    /* GENERAL */
+    ///  GLOBAL no necesita una vista tablet
+    
     /* INDEX.HTML */
     .mainContainer {
       height: 80vh;
@@ -166,7 +173,9 @@
     .appStore , .googleStore{
       width: 40vw;
     }
-    /* PRUDUCTS.HTML */
+
+    //  PRODUCTS.HTML no necesita una vista tablet
+
     /* PROGRAMS.HTML */
     .programText{
       h3{
@@ -174,9 +183,11 @@
       }
     }
     .programPlan {
-      width: 30vw;
+      width: 29vw;
     }
-    /* TEAM.HTML */
+
+    //  TEAM.HTML no necesita una vista tablet
+
     /* CONTACT.HTML */
   
     .contactForm {

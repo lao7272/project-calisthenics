@@ -13,10 +13,12 @@
   }
   
   .descriptionProgramH2 {
-    margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
     text-align: center;
     font-size: 19px;
-    color: #969595af;
+    color: #606060af;
   }
   .programsContainer{
     margin-top: 20px;
@@ -43,7 +45,7 @@
       width: 100%;
     }
     &:hover{
-      box-shadow:0 0 5px 1px #000;
+      box-shadow:0 0 8px 4px #464545;
       transition: box-shadow .3s;
     }
   }

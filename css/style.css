@@ -1,19 +1,11 @@
 /*GENERALES*/
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Koulen&family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
@@ -389,10 +381,12 @@ footer {
   text-align: center; }
 
 .descriptionProgramH2 {
-  margin-top: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
   text-align: center;
   font-size: 19px;
-  color: #969595af; }
+  color: #606060af; }
 
 .programsContainer {
   margin-top: 20px;
@@ -417,7 +411,7 @@ footer {
   .programPlan img {
     width: 100%; }
   .programPlan:hover {
-    box-shadow: 0 0 5px 1px #000;
+    box-shadow: 0 0 8px 4px #464545;
     transition: box-shadow .3s; }
 
 .programText {
@@ -546,8 +540,7 @@ footer {
 /* TEAM.HTML */
 .sectionTeam {
   width: 100%;
-  margin-top: 25px;
-  width: 100%; }
+  margin-top: 25px; }
 
 .teamTitle {
   font-size: 25px;
@@ -555,8 +548,7 @@ footer {
   text-align: center; }
 
 .profiles {
-  width: 95%;
-  margin: 0 auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
@@ -572,6 +564,8 @@ footer {
   justify-content: center; }
   .profile .profileInfo {
     display: none; }
+  .profile:hover .profileInfo, .profile :focus .profileInfo {
+    display: block; }
 
 .profile1 {
   background: url("../img/profile/profile1.jpg");
@@ -580,10 +574,7 @@ footer {
     transition: all .3s;
     transform: scale(1.05);
     background: linear-gradient(to right, #ffffff34, #ffffff40), url("../img/profile/profile1.jpg");
-    background-size: cover;
-    background-position: center; }
-    .profile1:hover .profileInfo, .profile1 :focus .profileInfo {
-      display: block; }
+    background-size: cover; }
 
 .profile2 {
   background: url("../img/profile/profile2.jpg");
@@ -592,10 +583,7 @@ footer {
     transition: all .3s;
     transform: scale(1.05);
     background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile2.jpg");
-    background-size: cover;
-    background-position: center; }
-    .profile2:hover .profileInfo, .profile2 :focus .profileInfo {
-      display: block; }
+    background-size: cover; }
 
 .profile3 {
   background: url("../img/profile/profile3.jpg");
@@ -604,10 +592,7 @@ footer {
     transition: all .3s;
     transform: scale(1.05);
     background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile3.jpg");
-    background-size: cover;
-    background-position: center; }
-    .profile3:hover .profileInfo, .profile3 :focus .profileInfo {
-      display: block; }
+    background-size: cover; }
 
 .profile4 {
   background: url("../img/profile/profile4.jpg");
@@ -616,10 +601,7 @@ footer {
     transition: all .3s;
     transform: scale(1.05);
     background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile4.jpg");
-    background-size: cover;
-    background-position: center; }
-    .profile4:hover .profileInfo, .profile4 :focus .profileInfo {
-      display: block; }
+    background-size: cover; }
 
 .profile5 {
   background: url("../img/profile/profile5.jpg");
@@ -628,10 +610,7 @@ footer {
     transition: all .3s;
     transform: scale(1.05);
     background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile5.jpg");
-    background-size: cover;
-    background-position: center; }
-    .profile5:hover .profileInfo, .profile5 :focus .profileInfo {
-      display: block; }
+    background-size: cover; }
 
 .profile6 {
   background: url("../img/profile/profile6.jpg");
@@ -640,10 +619,7 @@ footer {
     transition: all .3s;
     transform: scale(1.05);
     background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile6.jpg");
-    background-size: cover;
-    background-position: center; }
-    .profile6:hover .profileInfo, .profile6 :focus .profileInfo {
-      display: block; }
+    background-size: cover; }
 
 .profileInfo h3 {
   margin: 3px 0;
@@ -1180,10 +1156,12 @@ footer {
   text-align: center; }
 
 .descriptionProgramH2 {
-  margin-top: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
   text-align: center;
   font-size: 19px;
-  color: #969595af; }
+  color: #606060af; }
 
 .programsContainer {
   margin-top: 20px;
@@ -1208,7 +1186,7 @@ footer {
   .programPlan img {
     width: 100%; }
   .programPlan:hover {
-    box-shadow: 0 0 5px 1px #000;
+    box-shadow: 0 0 8px 4px #464545;
     transition: box-shadow .3s; }
 
 .programText {
@@ -1337,8 +1315,7 @@ footer {
 /* TEAM.HTML */
 .sectionTeam {
   width: 100%;
-  margin-top: 25px;
-  width: 100%; }
+  margin-top: 25px; }
 
 .teamTitle {
   font-size: 25px;
@@ -1346,8 +1323,7 @@ footer {
   text-align: center; }
 
 .profiles {
-  width: 95%;
-  margin: 0 auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
@@ -1363,6 +1339,8 @@ footer {
   justify-content: center; }
   .profile .profileInfo {
     display: none; }
+  .profile:hover .profileInfo, .profile :focus .profileInfo {
+    display: block; }
 
 .profile1 {
   background: url("../img/profile/profile1.jpg");
@@ -1371,10 +1349,7 @@ footer {
     transition: all .3s;
     transform: scale(1.05);
     background: linear-gradient(to right, #ffffff34, #ffffff40), url("../img/profile/profile1.jpg");
-    background-size: cover;
-    background-position: center; }
-    .profile1:hover .profileInfo, .profile1 :focus .profileInfo {
-      display: block; }
+    background-size: cover; }
 
 .profile2 {
   background: url("../img/profile/profile2.jpg");
@@ -1383,10 +1358,7 @@ footer {
     transition: all .3s;
     transform: scale(1.05);
     background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile2.jpg");
-    background-size: cover;
-    background-position: center; }
-    .profile2:hover .profileInfo, .profile2 :focus .profileInfo {
-      display: block; }
+    background-size: cover; }
 
 .profile3 {
   background: url("../img/profile/profile3.jpg");
@@ -1395,10 +1367,7 @@ footer {
     transition: all .3s;
     transform: scale(1.05);
     background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile3.jpg");
-    background-size: cover;
-    background-position: center; }
-    .profile3:hover .profileInfo, .profile3 :focus .profileInfo {
-      display: block; }
+    background-size: cover; }
 
 .profile4 {
   background: url("../img/profile/profile4.jpg");
@@ -1407,10 +1376,7 @@ footer {
     transition: all .3s;
     transform: scale(1.05);
     background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile4.jpg");
-    background-size: cover;
-    background-position: center; }
-    .profile4:hover .profileInfo, .profile4 :focus .profileInfo {
-      display: block; }
+    background-size: cover; }
 
 .profile5 {
   background: url("../img/profile/profile5.jpg");
@@ -1419,10 +1385,7 @@ footer {
     transition: all .3s;
     transform: scale(1.05);
     background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile5.jpg");
-    background-size: cover;
-    background-position: center; }
-    .profile5:hover .profileInfo, .profile5 :focus .profileInfo {
-      display: block; }
+    background-size: cover; }
 
 .profile6 {
   background: url("../img/profile/profile6.jpg");
@@ -1431,10 +1394,7 @@ footer {
     transition: all .3s;
     transform: scale(1.05);
     background: linear-gradient(to right, #ffffff40, #ffffff40), url("../img/profile/profile6.jpg");
-    background-size: cover;
-    background-position: center; }
-    .profile6:hover .profileInfo, .profile6 :focus .profileInfo {
-      display: block; }
+    background-size: cover; }
 
 .profileInfo h3 {
   margin: 3px 0;
@@ -1597,10 +1557,13 @@ footer {
     background-color: #121212; }
 
 /* MEDIAS QUERY */
+/* MOBILE */
 @media screen and (min-width: 300px) and (max-width: 576px) {
-  /* GENERALES */
-  footer .footerContainer .footerLogo img {
-    width: 50px; }
+  /* GLOBAL */
+  footer {
+    width: 100vw; }
+    footer .footerContainer .footerLogo img {
+      width: 58px; }
   /* INDEX.HTML */
   .mainContainer {
     height: 85vh;
@@ -1696,7 +1659,6 @@ footer {
     margin: 0; } }
 
 @media screen and (min-width: 577px) and (max-width: 1024px) {
-  /* GENERAL */
   /* INDEX.HTML */
   .mainContainer {
     height: 80vh; }
@@ -1709,13 +1671,11 @@ footer {
     height: auto; }
   .appStore, .googleStore {
     width: 40vw; }
-  /* PRUDUCTS.HTML */
   /* PROGRAMS.HTML */
   .programText h3 {
     font-size: 15px; }
   .programPlan {
-    width: 30vw; }
-  /* TEAM.HTML */
+    width: 29vw; }
   /* CONTACT.HTML */
   .contactForm form {
     width: 100%;
