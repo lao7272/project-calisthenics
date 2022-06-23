@@ -348,7 +348,8 @@ footer {
   margin-top: 25px; }
 
 .titleProducts {
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
 
 .product {
   cursor: pointer; }
@@ -1123,7 +1124,8 @@ footer {
   margin-top: 25px; }
 
 .titleProducts {
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
 
 .product {
   cursor: pointer; }
@@ -1560,16 +1562,18 @@ footer {
 /* MOBILE */
 @media screen and (min-width: 300px) and (max-width: 576px) {
   /* GLOBAL */
-  footer {
-    width: 100vw; }
-    footer .footerContainer .footerLogo img {
-      width: 58px; }
+  footer .footerContainer .footerLogo img {
+    width: 58px; }
   /* INDEX.HTML */
   .mainContainer {
     height: 85vh;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/index/l-sit2.jpg);
     background-size: cover;
     background-position: center; }
+  .mainText {
+    width: 80%; }
+    .mainText h1 {
+      font-size: 30px; }
   .indexSectionOne {
     display: flex;
     flex-direction: column; }
@@ -1598,13 +1602,16 @@ footer {
     width: 70vw; }
   /* PRUDUCTS.HTML */
   .product {
-    margin: 15px 20px; }
+    width: 75%;
+    margin: 0 auto; }
   /* PROGRAMS.HTML */
-  .descriptionH3 {
+  .descriptionProgramH2 {
     width: 85%;
     margin: 0 auto; }
+  .programsContainer {
+    margin-top: 3px; }
   .programs, .programsTwo {
-    width: 90%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1619,11 +1626,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 5px; }
-  .programsTwo {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto; }
   /* TEAM.HTML */
   .profiles {
     display: flex;
@@ -1662,6 +1664,10 @@ footer {
   /* INDEX.HTML */
   .mainContainer {
     height: 80vh; }
+  .mainText {
+    width: 80%; }
+    .mainText h1 {
+      font-size: 35px; }
   .indexAside {
     margin-bottom: 0; }
   .carouselProduct {
